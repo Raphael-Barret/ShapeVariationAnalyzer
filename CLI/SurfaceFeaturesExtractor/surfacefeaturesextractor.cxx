@@ -12,7 +12,7 @@ int main (int argc, char *argv[])
 	PARSE_ARGS;
     
     if(inputMesh.compare("") == 0){
-        cout<<"type --help to learn how to use this program."<<endl;
+        std::cout<<"type --help to learn how to use this program."<<endl;
         return 1;
     }
 
